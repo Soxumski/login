@@ -8,6 +8,11 @@ import java.util.*;
 import java.nio.charset.*;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.ThreadLocalRandom;
+<<<<<<< HEAD
+=======
+import java.util.concurrent.TimeUnit;
+
+>>>>>>> 7f53466 (login page)
 import org.openqa.selenium.support.ui.Select;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
@@ -37,6 +42,10 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
         String Msg = "Logged in successfully.";
         System.out.println(actualMsg);
         System.out.println(actualMsg.equals(Msg));
+<<<<<<< HEAD
+=======
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+>>>>>>> 7f53466 (login page)
         // generate rondom streang heare...
         String AlphaNumericString = RandomString.make(8);
         System.out.println(AlphaNumericString);

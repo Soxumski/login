@@ -14,8 +14,13 @@ public class ForgotPassword extends ChromeRunner  {
     By ResetPasswordButton = By.xpath("/html/body/modal-container/div/div/app-password-reset/div/div/form/div/div[2]/button");
     //By userIcon = By.id("userIcon");
     By userIcon = By.xpath("//*[@id=\"page__id\"]/app-navigation/nav/div/div[2]/div/div[3]/button");
+<<<<<<< HEAD
     By Account = By.xpath("//*[@id=\"page__id\"]/app-navigation/nav/div/div[2]/div/div[3]/div/div/ul/li[2]/a/span");
 
+=======
+    By Account = By.xpath("//*[@id=\"page__id\"]/app-navigation/nav/div/div[2]/div/div[3]/div/div/ul/li[2]/a");
+    By Account_tab = By.xpath("//*[@id=\"profile-tabs\"]/li[3]/a");
+>>>>>>> 7f53466 (login page)
 
 
     public void Forgot(String user, String pass, String Email)
@@ -43,6 +48,10 @@ public class ForgotPassword extends ChromeRunner  {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(userIcon).click();
         driver.findElement(Account).click();
+<<<<<<< HEAD
+=======
+        driver.findElement(Account_tab).click();
+>>>>>>> 7f53466 (login page)
 
     }
 

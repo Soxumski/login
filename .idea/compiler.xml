@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="login" />
+=======
+        <module name="Beta-Betvili_UI" />
+>>>>>>> 7f53466 (login page)
       </profile>
     </annotationProcessing>
   </component>
